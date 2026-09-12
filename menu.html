@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore the Mai Colachi menu — appetizers, BBQ, biryani, karahi, seafood, desserts, and drinks. Premium Halal Indo-Pakistani cuisine in Sugar Land." />
+  <title>Menu | Mai Colachi</title>
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Josefin+Sans:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="navbar is-solid">
+    <div class="container navbar-inner">
+      <a href="index.html" class="brand" aria-label="Mai Colachi home">
+        <img src="images/logo.jpg" alt="" width="72" height="72" />
+        <span class="brand-wordmark">Mai Colachi</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html" class="is-active">Menu</a>
+        <a href="catering.html">Catering</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="nav-phone" href="tel:+12812400786">☎ (281) 240-0786</a>
+        <a class="btn btn-primary nav-cta" href="catering.html">Book Catering</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="menu.html" class="is-active">Menu</a>
+    <a href="catering.html">Catering</a>
+    <a href="contact.html">Contact</a>
+    <a class="btn btn-ghost" href="tel:+12812400786">(281) 240-0786</a>
+    <a class="btn btn-primary" href="menu.html">View Menu</a>
+  </nav>
+
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="page-hero-media" aria-hidden="true">
+        <img src="images/biryani.jpg" alt="" />
+      </div>
+      <div class="page-hero-overlay"></div>
+      <div class="container">
+        <span class="eyebrow">Dining Menu</span>
+        <h1>Crafted over charcoal & spice</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="eyebrow">Filter by Course</span>
+          <h2 class="section-title">Our Menu</h2>
+          <div class="gold-line gold-line--center"></div>
+          <p class="section-lead">From Shuruwat appetizers to signature karahi — every plate is prepared Halal with premium ingredients.</p>
+        </div>
+
+        <div class="filters reveal" role="tablist" aria-label="Menu categories">
+          <button type="button" class="filter-btn is-active" data-filter="all">All</button>
+          <button type="button" class="filter-btn" data-filter="Appetizers">Appetizers</button>
+          <button type="button" class="filter-btn" data-filter="BBQ">BBQ</button>
+          <button type="button" class="filter-btn" data-filter="Main Course">Main Course</button>
+          <button type="button" class="filter-btn" data-filter="Biryani">Biryani</button>
+          <button type="button" class="filter-btn" data-filter="Karahi">Karahi</button>
+          <button type="button" class="filter-btn" data-filter="Seafood">Seafood</button>
+          <button type="button" class="filter-btn" data-filter="Desserts">Desserts</button>
+          <button type="button" class="filter-btn" data-filter="Drinks">Drinks</button>
+        </div>
+
+        <div class="menu-grid">
+          <article class="dish-card menu-item reveal" data-category="Appetizers">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/samosa.jpg" alt="Samosa Chaat" />
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Samosa Chaat</h3><span class="price">$9.99</span></div>
+              <p>Crisp samosas with yogurt, chutneys, sev, and fresh herbs.</p>
+            </div>
+          </article>
+          <article class="dish-card menu-item reveal" data-category="Appetizers">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/appetizer.jpg" alt="Colachi Wings" />
+              <span class="badge">Popular</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Colachi Wings</h3><span class="price">$12.99</span></div>
+              <p>Twice-cooked wings tossed in our smoky masala glaze.</p>
+            </div>
+          </article>
+          <article class="dish-card menu-item reveal" data-category="Appetizers">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/naan.jpg" alt="Garlic Naan" />
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Garlic Naan Platter</h3><span class="price">$4.99</span></div>
+              <p>Tandoor-baked naan brushed with garlic butter and cilantro.</p>
+            </div>
+          </article>
+
+          <article class="dish-card menu-item reveal" data-category="BBQ">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/kebab.jpg" alt="Chicken Malai Boti" />
+              <span class="badge">Popular</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Chicken Malai Boti</h3><span class="price">$16.99</span></div>
+              <p>Cream-marinated chicken, slow-grilled and delicately charred.</p>
+            </div>
+          </article>
+          <article class="dish-card menu-item reveal" data-category="BBQ">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/hero.jpg" alt="Seekh Kebab" />
+              <span class="badge">Popular</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Charcoal Seekh Kebab</h3><span class="price">$15.99</span></div>
+              <p>Hand-minced beef skewers grilled over open flame.</p>
+            </div>
+          </article>
+          <article class="dish-card menu-item reveal" data-category="BBQ">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/steak.jpg" alt="Halal Steak" />
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Colachi Halal Steak</h3><span class="price">$28.99</span></div>
+              <p>Flame-grilled steak with herb butter and house seasoning.</p>
+            </div>
+          </article>
+
+          <article class="dish-card menu-item reveal" data-category="Main Course">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/curry.jpg" alt="Butter Chicken" />
+              <span class="badge">Popular</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Butter Chicken</h3><span class="price">$16.99</span></div>
+              <p>Tandoori chicken in a silken tomato-butter sauce.</p>
+            </div>
+          </article>
+          <article class="dish-card menu-item reveal" data-category="Main Course">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/curry.jpg" alt="Paneer Tikka Handi" />
+              <span class="badge">Popular</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Paneer Tikka Handi</h3><span class="price">$15.99</span></div>
+              <p>House paneer in tomato-cashew gravy with fenugreek.</p>
+            </div>
+          </article>
+          <article class="dish-card menu-item reveal" data-category="Main Course">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/curry.jpg" alt="Beef Nihari" />
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Beef Nihari</h3><span class="price">$19.99</span></div>
+              <p>Slow-braised shank in deep spiced broth with ginger.</p>
+            </div>
+          </article>
+
+          <article class="dish-card menu-item reveal" data-category="Biryani">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/biryani.jpg" alt="Chicken Biryani" />
+              <span class="badge">Popular</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Hyderabadi Chicken Biryani</h3><span class="price">$17.99</span></div>
+              <p>Basmati layered with spiced chicken, saffron, and onion.</p>
+            </div>
+          </article>
+          <article class="dish-card menu-item reveal" data-category="Biryani">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/biryani.jpg" alt="Mutton Biryani" />
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Mutton Dum Biryani</h3><span class="price">$19.99</span></div>
+              <p>Bone-in mutton sealed and steam-cooked with aged basmati.</p>
+            </div>
+          </article>
+          <article class="dish-card menu-item reveal" data-category="Biryani">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/biryani.jpg" alt="Vegetable Biryani" />
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Vegetable Dum Biryani</h3><span class="price">$14.99</span></div>
+              <p>Garden vegetables steamed with saffron and aromatic ghee.</p>
+            </div>
+          </article>
+
+          <article class="dish-card menu-item reveal" data-category="Karahi">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/karahi.jpg" alt="Goat Karahi" />
+              <span class="badge">Popular</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Goat Karahi</h3><span class="price">$24.99</span></div>
+              <p>Signature wok-fired karahi with tomato, ginger, and chili.</p>
+            </div>
+          </article>
+          <article class="dish-card menu-item reveal" data-category="Karahi">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/karahi.jpg" alt="Chicken Karahi" />
+              <span class="badge">Popular</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Chicken Karahi</h3><span class="price">$18.99</span></div>
+              <p>Bone-in chicken tossed with tomatoes, garlic, and spices.</p>
+            </div>
+          </article>
+          <article class="dish-card menu-item reveal" data-category="Karahi">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/prawn.jpg" alt="Prawn Karahi" />
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Prawn Karahi</h3><span class="price">$22.99</span></div>
+              <p>Jumbo prawns finished in a bright chili-forward gravy.</p>
+            </div>
+          </article>
+
+          <article class="dish-card menu-item reveal" data-category="Seafood">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/fish.jpg" alt="Lahori Fish" />
+              <span class="badge">Popular</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Lahori Fish</h3><span class="price">$18.99</span></div>
+              <p>Spice-crusted fish with citrus and house chaat masala.</p>
+            </div>
+          </article>
+          <article class="dish-card menu-item reveal" data-category="Seafood">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/prawn.jpg" alt="Masala Prawns" />
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Masala Prawns</h3><span class="price">$21.99</span></div>
+              <p>Seared prawns in coastal spice marinade with curry leaf.</p>
+            </div>
+          </article>
+          <article class="dish-card menu-item reveal" data-category="Seafood">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/fish.jpg" alt="Tandoori Salmon" />
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Tandoori Salmon</h3><span class="price">$23.99</span></div>
+              <p>Atlantic salmon glazed in yogurt spices and flame-finished.</p>
+            </div>
+          </article>
+
+          <article class="dish-card menu-item reveal" data-category="Desserts">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/dessert.jpg" alt="Gulab Jamun" />
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Gulab Jamun</h3><span class="price">$6.99</span></div>
+              <p>Warm milk dumplings soaked in cardamom-rose syrup.</p>
+            </div>
+          </article>
+          <article class="dish-card menu-item reveal" data-category="Desserts">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/dessert.jpg" alt="Saffron Kheer" />
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Saffron Rice Kheer</h3><span class="price">$6.49</span></div>
+              <p>Creamy rice pudding with pistachios and silver leaf.</p>
+            </div>
+          </article>
+
+          <article class="dish-card menu-item reveal" data-category="Drinks">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/drink.jpg" alt="Mango Lassi" />
+              <span class="badge">Popular</span>
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Mango Lassi</h3><span class="price">$5.99</span></div>
+              <p>Chilled yogurt blended with ripe Alphonso mango.</p>
+            </div>
+          </article>
+          <article class="dish-card menu-item reveal" data-category="Drinks">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/drink.jpg" alt="Fresh Lime Soda" />
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Fresh Lime Soda</h3><span class="price">$4.99</span></div>
+              <p>Sparkling citrus cooler with a hint of black salt.</p>
+            </div>
+          </article>
+          <article class="dish-card menu-item reveal" data-category="Drinks">
+            <div class="dish-card-media">
+              <img loading="lazy" src="images/drink.jpg" alt="Masala Chai" />
+            </div>
+            <div class="dish-card-body">
+              <div class="dish-card-top"><h3>Masala Chai</h3><span class="price">$3.99</span></div>
+              <p>Slow-brewed tea with cardamom, ginger, and steamed milk.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta-bg" aria-hidden="true"><img loading="lazy" src="images/plated.jpg" alt="" /></div>
+      <div class="cta-overlay"></div>
+      <div class="container reveal">
+        <h2 class="section-title">Feeding a crowd?</h2>
+        <div class="gold-line gold-line--center"></div>
+        <p class="section-lead" style="margin-inline:auto;">Ask about party trays and full-service catering packages.</p>
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="catering.html">Book Catering</a>
+          <a class="btn btn-ghost" href="https://www.mai-colachi.com/popmenu-order" target="_blank" rel="noreferrer">Order Online</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="footer-logo"><img src="images/logo.jpg" alt="Mai Colachi" width="96" height="96" /></a>
+        <p class="footer-tagline">Dine In · Catering · Events</p>
+        <p class="footer-blurb">Premium Halal Indo-Pakistani cuisine in Sugar Land, TX.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul class="footer-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="catering.html">Catering</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Visit</h3>
+        <ul class="footer-contact">
+          <li><span>📍</span><a href="https://www.google.com/maps/search/?api=1&query=15425+Southwest+Fwy+Sugar+Land+TX+77478" target="_blank" rel="noreferrer">15425 Southwest Fwy<br />Sugar Land, TX 77478</a></li>
+          <li><span>☎</span><a href="tel:+12812400786">(281) 240-0786</a></li>
+          <li><span>✉</span><a href="mailto:info@mai-colachi.com">info@mai-colachi.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Hours</h3>
+        <ul class="footer-hours">
+          <li><span>🕒</span><span><strong>Mon – Thu</strong><em>11:00 AM – 10:00 PM</em></span></li>
+          <li><span>🕒</span><span><strong>Fri – Sat</strong><em>11:00 AM – 10:45 PM</em></span></li>
+          <li><span>🕒</span><span><strong>Sunday</strong><em>11:00 AM – 10:00 PM</em></span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom"><div class="container footer-bottom-inner"><p>© 2026 Mai Colachi. All rights reserved.</p><p>Sugar Land · Houston Metro</p></div></div>
+  </footer>
+  <button class="scroll-top" type="button" aria-label="Scroll to top">↑</button>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
